@@ -1,4 +1,8 @@
 Q: What happens when you initialize a repository? Why do you need to do it?
 
-A: 
+A: A .git folder is created in the location where "git init" was run. Files in the folder are not yet tracked at this point, but can be added to the repository for tracking.
 
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+A: The staging area is tracked, unlike the working directory. It is also editable, unlike the repository, so it's possible to change it until a point in time where we want to perform a commit and save a specific version of the files in it.
