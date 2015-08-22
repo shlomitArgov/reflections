@@ -16,3 +16,8 @@ A: You can perform changes in the staging area and once you're ready to commit, 
 Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 A: When trying out new features, it could be useful to do it on a separate branch rather than on the main branch. That way, development of the main branch is not affected by experimental code that could break it.
+
+
+Q: How do the diagrams help you visualize the branch structure?
+
+A: They show the relation between "parent commit" and commit, providing a visual representation of the path of commits that can be traversed for a given commit.
