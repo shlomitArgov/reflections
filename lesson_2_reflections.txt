@@ -6,3 +6,8 @@ A: A .git folder is created in the location where "git init" was run. Files in t
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 A: The staging area is tracked, unlike the working directory. It is also editable, unlike the repository, so it's possible to change it until a point in time where we want to perform a commit and save a specific version of the files in it.
+
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+A: You can perform changes in the staging area and once you're ready to commit, you can decide to treat different changes as components of separate commits, based on the logical unit you regard as the commit.
