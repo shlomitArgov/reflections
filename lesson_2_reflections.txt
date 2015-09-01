@@ -26,3 +26,9 @@ A: They show the relation between "parent commit" and commit, providing a visual
 Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 A: A single branch with all previous commits sorted by timestamp. It is represented in the diagram as two branches merging into a single branch because this reflects the process in which the merged branch was created.
+
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A: Pros: Automatic merging saves time and effort for the developer in most cases (when automatic merge can be easily inferred).
+   Cons: Automatic merging can make it so refactoring that might be a good idea when merging branches is not noticeable by the merging developer.
