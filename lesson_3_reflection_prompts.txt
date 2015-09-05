@@ -28,3 +28,8 @@ A: It makes it possible to work on the latest version of the shared code when of
 Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 A: I would probably share the files on a public server or send them in some way (e.g. email), but that would make synching the work and merging changes made by several people much harder than when using GitHub.
+
+
+Q: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+A: I would probably want to make all changes on a seperate branch if the project I am working on is in collaboration with other developers. This is because I'd like any changes I want to add to the main branch to be reviewed by someone else before commiting them to the main branch and also in order not to interfere with the stable version of the code that should be available on the main branch. I guess that if I was making a relatively small and safe change, I could do so on the master branch, since it would be faster and would make the change available to the other developers immidiately. 
