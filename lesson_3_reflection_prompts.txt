@@ -23,3 +23,8 @@ A: Forks are similiar to clones, in the fact that they create a copy of a reposi
 Q: What is the benefit of having a copy of the last known state of the remote stored locally?
 
 A: It makes it possible to work on the latest version of the shared code when offline. It could also makes synching faster.
+
+
+Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+A: I would probably share the files on a public server or send them in some way (e.g. email), but that would make synching the work and merging changes made by several people much harder than when using GitHub.
